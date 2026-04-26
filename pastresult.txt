@@ -1,4 +1,7 @@
 Draw Date       Regular Numbers Bonus
+24th April 2026 11  14  26  31  36  39  43  6
+21st April 2026 2	12	16	19	24	29	48	10
+17th April 2026 7	12	29	38	39	44	52	35
 14th April 2026	4	13	20	31	37	43	51	9
 10th April 2026	1	11	16	20	28	32	45	50
 7th April 2026	3	8	15	19	23	29	37	4
