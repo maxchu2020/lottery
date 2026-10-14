@@ -23,8 +23,8 @@
 
 ### 0. 更新开奖数据
 ```bash
-pip install -r requirements.txt
-python3 fetch_history.py
+python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
+.venv/bin/python fetch_history.py
 ```
 
 ### 1. 运行深度分析
