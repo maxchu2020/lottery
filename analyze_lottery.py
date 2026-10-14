@@ -69,9 +69,9 @@ def analyze_lottery(file_path):
     # 5. Consecutive Numbers
     consecutive_counts = collections.Counter() # 0 = no consecutive, 1 = one pair (e.g., 4,5), etc.
     
-    # 6. Range Distribution (1-10, 11-20, 21-30, 31-40, 41-50)
+    # 6. Range Distribution (1-10, 11-20, 21-30, 31-40, 41-52)
     ranges = {
-        '1-10': 0, '11-20': 0, '21-30': 0, '31-40': 0, '41-50': 0
+        '1-10': 0, '11-20': 0, '21-30': 0, '31-40': 0, '41-52': 0
     }
     
     for entry in data:
@@ -106,7 +106,7 @@ def analyze_lottery(file_path):
             elif 11 <= n <= 20: ranges['11-20'] += 1
             elif 21 <= n <= 30: ranges['21-30'] += 1
             elif 31 <= n <= 40: ranges['31-40'] += 1
-            elif 41 <= n <= 50: ranges['41-50'] += 1
+            elif 41 <= n <= 52: ranges['41-52'] += 1
 
     print("\n--- Consecutive Numbers Analysis ---")
     for count, freq in sorted(consecutive_counts.items()):

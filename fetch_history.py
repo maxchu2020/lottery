@@ -140,4 +140,4 @@ def update_past_results(file_path, new_results):
 if __name__ == "__main__":
     results = fetch_lotto_max_history()
     if results:
-        update_past_results('pastresult.txt', results)
+        update_past_results('/opt/project/lottery/pastresult.txt', results)
