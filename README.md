@@ -4,7 +4,7 @@
 
 ## 目录结构
 
-- `pastresult.txt`: 存放 Lotto Max 历史开奖结果的数据文件（已更新至 2026年10月9日）。
+- `pastresult.txt`: 存放 Lotto Max 历史开奖结果的数据文件（已更新至 2026年10月23日）。
 - `fetch_history.py`: 从 getmylottoresults.com 抓取全部历史结果，补进 `pastresult.txt`（只增不删，按日期倒序）。
 - `analyze_lottery.py`: 深度分析脚本，用于统计奇偶分布、和值趋势、连号规律、热门号码及组合。
 - `generate_numbers.py`: 号码生成脚本，基于历史规律并结合历史查重功能生成推荐组合。
