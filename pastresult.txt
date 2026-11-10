@@ -1,4 +1,8 @@
 Draw Date       Regular Numbers Bonus
+6th November 2026	10 23 32 43 46 48 51	30
+3rd November 2026	5 7 16 23 28 30 47	31
+30th October 2026	6 19 23 24 30 35 51	2
+27th October 2026	1 20 24 26 33 36 50	11
 23rd October 2026	8 21 23 28 30 39 47	17
 20th October 2026	8 15 19 23 26 28 34	38
 16th October 2026	1 11 13 36 41 43 51	52
